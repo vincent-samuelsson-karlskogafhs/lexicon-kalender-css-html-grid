@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.calender {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.day {
+  background-color: grey;
+  border: 1px solid black;
+}
